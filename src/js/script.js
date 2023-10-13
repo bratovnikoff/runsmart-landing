@@ -91,8 +91,9 @@ $(document).ready(function(){
         }
 
         $.ajax({
-            type: "POST",
-            url: "mailer/smart.php",
+            url: "https://formcarry.com/s/RL5G-NbS6m",
+            method: "POST",
+            dataType: "json",
             data: $(this).serialize()
         }).done(function() {
             $(this).find("input").val("");
