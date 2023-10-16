@@ -78,6 +78,7 @@
 
         &__descr {
             margin-top: 16px;
+            margin-right: 20px;
             color: #0d0d0d;
             font-size: 14px;
             font-weight: 300;
@@ -145,7 +146,6 @@
         &__list {
             position: relative;
             width: 50%;
-            margin-left: 20px;
             transform: translateX(0%);
             padding-right: 20px;
             transition: 0.5s all;
